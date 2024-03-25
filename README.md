@@ -20,7 +20,7 @@ A simple command-line tool to download YouTube videos and audio using Python and
 1. Clone this repository:
 
     ```
-    git clone https://github.com/your_username/youtube-downloader.git
+    git clone https://github.com/your_username/Youtube_Downloader.git
     ```
 
 2. Install the required dependencies:
@@ -34,13 +34,13 @@ A simple command-line tool to download YouTube videos and audio using Python and
 1. Navigate to the project directory:
 
     ```
-    cd youtube-downloader
+    cd Youtube_Downloader
     ```
 
 2. Run the script with a YouTube video URL as an argument:
 
     ```
-    python downloader.py <youtube_video_url>
+    python yt_downloader.py <youtube_video_url>
     ```
 
 ## Contributing
