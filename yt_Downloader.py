@@ -13,7 +13,7 @@ def download_video(yt, resolution=None):
     else:
         stream = yt.streams.get_highest_resolution()
     try:
-        stream.download('./YT Downloaded', filename=f'{yt.title}.mp4')  # Change file extension to 'mp4'
+        stream.download('./YT Downloaded', filename=f'{yt.title}.mp4')  
         print(f"Video downloaded successfully as {yt.title}.mp4")
     except Exception as e:
         print(f"Error downloading video: {e}")
